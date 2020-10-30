@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Properties>
+		<Property name="logsPath" value="./logs"></Property>
+	</Properties>
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<File name="ProductoLog" fileName="${logsPath}/producto.log">
+			<PatternLayout>
+				<Pattern>%d %m%n</Pattern>
+			</PatternLayout>
+		</File>
+		<File name="ClienteLog" fileName="${logsPath}/cliente.log">
+			<PatternLayout>
+				<Pattern>%d %m%n</Pattern>
+			</PatternLayout>
+		</File>
+		<File name="VentaLog" fileName="${logsPath}/venta.log">
+			<PatternLayout>
+				<Pattern>%d %m%n</Pattern>
+			</PatternLayout>
+		</File>
+		<File name="Application" fileName="${logsPath}/application.log">
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} -
+					%msg%n</Pattern>
+			</PatternLayout>
+		</File>
+	</Appenders>
+	<Loggers>
+		<Logger name="com.co.compras" level="trace" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="Application" />
+		</Logger>
+		
+		<Logger name="com.co.compras.controller.ProductoController" level="error" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="Application" />
+			<AppenderRef ref="ProductoLog" />
+		</Logger>
+		
+		<Logger name="com.co.compras.controller.ClienteController" level="error" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="Application" />
+			<AppenderRef ref="ClienteLog" />
+		</Logger>
+		
+		<Logger name="com.co.compras.controller.VentaController" level="error" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="Application" />
+			<AppenderRef ref="VentaLog" />
+		</Logger>
+		
+		<root level="info">
+			<appender-ref ref="Console" />
+			<AppenderRef ref="Application" />
+		</root>
+	</Loggers>
+</Configuration>

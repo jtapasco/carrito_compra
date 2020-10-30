@@ -1,0 +1,270 @@
+2020-10-29 22:31:38.089 [main] INFO  com.co.compras.ComprasApplication -
+					Starting ComprasApplication on LAPTOP-CSIKJ31B with PID 7796 (C:\Users\Jesica\Desktop\compras\target\classes started by Jesica in C:\Users\Jesica\Desktop\compras)
+2020-10-29 22:31:38.109 [main] DEBUG com.co.compras.ComprasApplication -
+					Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-29 22:31:38.111 [main] INFO  com.co.compras.ComprasApplication -
+					No active profile set, falling back to default profiles: default
+2020-10-29 22:31:39.002 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+					Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-29 22:31:39.115 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+					Finished Spring Data repository scanning in 98ms. Found 4 JPA repository interfaces.
+2020-10-29 22:31:40.131 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+					Tomcat initialized with port(s): 8080 (http)
+2020-10-29 22:31:40.147 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+					Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-29 22:31:40.148 [main] INFO  org.apache.catalina.core.StandardService -
+					Starting service [Tomcat]
+2020-10-29 22:31:40.148 [main] INFO  org.apache.catalina.core.StandardEngine -
+					Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-29 22:31:40.292 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+					Initializing Spring embedded WebApplicationContext
+2020-10-29 22:31:40.292 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext -
+					Root WebApplicationContext: initialization completed in 2117 ms
+2020-10-29 22:31:40.363 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+					noltest - Starting...
+2020-10-29 22:31:40.646 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+					noltest - Start completed.
+2020-10-29 22:31:40.653 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration -
+					H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./build/h2db/db/noltest'
+2020-10-29 22:31:40.831 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -
+					Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 22:31:40.915 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper -
+					HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-29 22:31:40.961 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -
+					spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-29 22:31:41.025 [task-1] INFO  org.hibernate.Version -
+					HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-29 22:31:41.165 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration -
+					
+
+Using generated security password: 1f59e382-4286-4757-9642-7952e13c5427
+
+2020-10-29 22:31:41.450 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain -
+					Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2121d1f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dd1f638, org.springframework.security.web.header.HeaderWriterFilter@4c447c09, org.springframework.security.web.authentication.logout.LogoutFilter@36c281ed, com.co.compras.filter.JWTAuthorizationFilter@31e2232f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b76aa5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@410ae5ac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1806bc4c, org.springframework.security.web.session.SessionManagementFilter@31e76a8d, org.springframework.security.web.access.ExceptionTranslationFilter@43c87306, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6056232d]
+2020-10-29 22:31:41.450 [task-1] INFO  org.hibernate.annotations.common.Version -
+					HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-29 22:31:41.675 [task-1] INFO  org.hibernate.dialect.Dialect -
+					HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-29 22:31:41.946 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+					Starting ProtocolHandler ["http-nio-8080"]
+2020-10-29 22:31:42.001 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+					Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-29 22:31:42.003 [main] INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener -
+					Triggering deferred initialization of Spring Data repositories…
+2020-10-29 22:31:42.749 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator -
+					HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-29 22:31:42.759 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+					Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-29 22:31:43.259 [main] INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener -
+					Spring Data repositories initialized!
+2020-10-29 22:31:43.266 [main] INFO  com.co.compras.ComprasApplication -
+					Started ComprasApplication in 5.5 seconds (JVM running for 6.36)
+2020-10-29 22:36:15.828 [main] INFO  com.co.compras.ComprasApplication -
+					Starting ComprasApplication on LAPTOP-CSIKJ31B with PID 21900 (C:\Users\Jesica\Desktop\compras\target\classes started by Jesica in C:\Users\Jesica\Desktop\compras)
+2020-10-29 22:36:15.847 [main] DEBUG com.co.compras.ComprasApplication -
+					Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-29 22:36:15.848 [main] INFO  com.co.compras.ComprasApplication -
+					No active profile set, falling back to default profiles: default
+2020-10-29 22:36:16.621 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+					Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-29 22:36:16.760 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+					Finished Spring Data repository scanning in 125ms. Found 4 JPA repository interfaces.
+2020-10-29 22:36:17.734 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+					Tomcat initialized with port(s): 8080 (http)
+2020-10-29 22:36:17.747 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+					Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-29 22:36:17.747 [main] INFO  org.apache.catalina.core.StandardService -
+					Starting service [Tomcat]
+2020-10-29 22:36:17.747 [main] INFO  org.apache.catalina.core.StandardEngine -
+					Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-29 22:36:17.862 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+					Initializing Spring embedded WebApplicationContext
+2020-10-29 22:36:17.863 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext -
+					Root WebApplicationContext: initialization completed in 1963 ms
+2020-10-29 22:36:17.971 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+					noltest - Starting...
+2020-10-29 22:36:18.265 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+					noltest - Start completed.
+2020-10-29 22:36:18.273 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration -
+					H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./build/h2db/db/noltest'
+2020-10-29 22:36:18.447 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -
+					Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 22:36:18.540 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper -
+					HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-29 22:36:18.587 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -
+					spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-29 22:36:18.652 [task-1] INFO  org.hibernate.Version -
+					HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-29 22:36:18.771 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration -
+					
+
+Using generated security password: 527ee85a-a2a5-46cd-ac75-5c1be65f1ffc
+
+2020-10-29 22:36:18.946 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain -
+					Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2121d1f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dd1f638, org.springframework.security.web.header.HeaderWriterFilter@4c447c09, org.springframework.security.web.authentication.logout.LogoutFilter@36c281ed, com.co.compras.filter.JWTAuthorizationFilter@31e2232f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b76aa5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@410ae5ac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1806bc4c, org.springframework.security.web.session.SessionManagementFilter@31e76a8d, org.springframework.security.web.access.ExceptionTranslationFilter@43c87306, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6056232d]
+2020-10-29 22:36:18.965 [task-1] INFO  org.hibernate.annotations.common.Version -
+					HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-29 22:36:19.172 [task-1] INFO  org.hibernate.dialect.Dialect -
+					HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-29 22:36:19.403 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+					Starting ProtocolHandler ["http-nio-8080"]
+2020-10-29 22:36:19.452 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+					Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-29 22:36:19.455 [main] INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener -
+					Triggering deferred initialization of Spring Data repositories…
+2020-10-29 22:36:20.208 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator -
+					HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-29 22:36:20.217 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+					Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-29 22:36:20.772 [main] INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener -
+					Spring Data repositories initialized!
+2020-10-29 22:36:20.781 [main] INFO  com.co.compras.ComprasApplication -
+					Started ComprasApplication in 5.266 seconds (JVM running for 6.062)
+2020-10-29 22:36:26.203 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+					Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-29 22:36:26.203 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+					Initializing Servlet 'dispatcherServlet'
+2020-10-29 22:36:26.210 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+					Completed initialization in 7 ms
+2020-10-29 22:36:26.952 [http-nio-8080-exec-1] DEBUG com.co.compras.serviceImpl.AuthServiceImpl -
+					Logueo exitoso
+2020-10-29 22:40:08.470 [main] INFO  com.co.compras.ComprasApplication -
+					Starting ComprasApplication on LAPTOP-CSIKJ31B with PID 20264 (C:\Users\Jesica\Desktop\compras\target\classes started by Jesica in C:\Users\Jesica\Desktop\compras)
+2020-10-29 22:40:08.480 [main] DEBUG com.co.compras.ComprasApplication -
+					Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-29 22:40:08.481 [main] INFO  com.co.compras.ComprasApplication -
+					No active profile set, falling back to default profiles: default
+2020-10-29 22:40:09.377 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+					Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-29 22:40:09.521 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+					Finished Spring Data repository scanning in 122ms. Found 4 JPA repository interfaces.
+2020-10-29 22:40:10.500 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+					Tomcat initialized with port(s): 8080 (http)
+2020-10-29 22:40:10.514 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+					Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-29 22:40:10.514 [main] INFO  org.apache.catalina.core.StandardService -
+					Starting service [Tomcat]
+2020-10-29 22:40:10.514 [main] INFO  org.apache.catalina.core.StandardEngine -
+					Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-29 22:40:10.622 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+					Initializing Spring embedded WebApplicationContext
+2020-10-29 22:40:10.623 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext -
+					Root WebApplicationContext: initialization completed in 2088 ms
+2020-10-29 22:40:10.712 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+					noltest - Starting...
+2020-10-29 22:40:11.067 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+					noltest - Start completed.
+2020-10-29 22:40:11.081 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration -
+					H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./build/h2db/db/noltest'
+2020-10-29 22:40:11.288 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -
+					Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 22:40:11.369 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper -
+					HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-29 22:40:11.407 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -
+					spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-29 22:40:11.459 [task-1] INFO  org.hibernate.Version -
+					HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-29 22:40:11.576 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration -
+					
+
+Using generated security password: 581c1354-fa8d-44f7-a19f-73149ffb094f
+
+2020-10-29 22:40:11.772 [task-1] INFO  org.hibernate.annotations.common.Version -
+					HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-29 22:40:11.777 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain -
+					Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69afa141, org.springframework.security.web.context.SecurityContextPersistenceFilter@120d3fd, org.springframework.security.web.header.HeaderWriterFilter@2e09c51, org.springframework.security.web.authentication.logout.LogoutFilter@6ed922e1, com.co.compras.filter.JWTAuthorizationFilter@49f40c00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4693a9ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fd05028, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@643d2dae, org.springframework.security.web.session.SessionManagementFilter@4b76aa5a, org.springframework.security.web.access.ExceptionTranslationFilter@596a7f44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ab26378]
+2020-10-29 22:40:11.997 [task-1] INFO  org.hibernate.dialect.Dialect -
+					HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-29 22:40:12.302 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+					Starting ProtocolHandler ["http-nio-8080"]
+2020-10-29 22:40:12.349 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+					Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-29 22:40:12.353 [main] INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener -
+					Triggering deferred initialization of Spring Data repositories…
+2020-10-29 22:40:13.184 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator -
+					HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-29 22:40:13.199 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+					Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-29 22:40:13.864 [main] INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener -
+					Spring Data repositories initialized!
+2020-10-29 22:40:13.875 [main] INFO  com.co.compras.ComprasApplication -
+					Started ComprasApplication in 5.789 seconds (JVM running for 6.575)
+2020-10-29 22:40:17.193 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+					Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-29 22:40:17.193 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+					Initializing Servlet 'dispatcherServlet'
+2020-10-29 22:40:17.203 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+					Completed initialization in 10 ms
+2020-10-29 22:40:17.853 [http-nio-8080-exec-1] DEBUG com.co.compras.serviceImpl.AuthServiceImpl -
+					Logueo exitoso
+2020-10-29 22:43:41.334 [main] INFO  com.co.compras.ComprasApplication -
+					Starting ComprasApplication on LAPTOP-CSIKJ31B with PID 22096 (C:\Users\Jesica\Desktop\compras\target\classes started by Jesica in C:\Users\Jesica\Desktop\compras)
+2020-10-29 22:43:41.342 [main] DEBUG com.co.compras.ComprasApplication -
+					Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-29 22:43:41.343 [main] INFO  com.co.compras.ComprasApplication -
+					No active profile set, falling back to default profiles: default
+2020-10-29 22:43:42.158 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+					Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-29 22:43:42.280 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -
+					Finished Spring Data repository scanning in 110ms. Found 4 JPA repository interfaces.
+2020-10-29 22:43:43.329 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+					Tomcat initialized with port(s): 8080 (http)
+2020-10-29 22:43:43.342 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+					Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-29 22:43:43.342 [main] INFO  org.apache.catalina.core.StandardService -
+					Starting service [Tomcat]
+2020-10-29 22:43:43.342 [main] INFO  org.apache.catalina.core.StandardEngine -
+					Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-29 22:43:43.462 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+					Initializing Spring embedded WebApplicationContext
+2020-10-29 22:43:43.463 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext -
+					Root WebApplicationContext: initialization completed in 2077 ms
+2020-10-29 22:43:43.520 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+					noltest - Starting...
+2020-10-29 22:43:43.780 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+					noltest - Start completed.
+2020-10-29 22:43:43.787 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration -
+					H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./build/h2db/db/noltest'
+2020-10-29 22:43:43.960 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -
+					Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 22:43:44.055 [task-1] INFO  org.hibernate.jpa.internal.util.LogHelper -
+					HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-29 22:43:44.096 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -
+					spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-29 22:43:44.128 [task-1] INFO  org.hibernate.Version -
+					HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-29 22:43:44.280 [main] INFO  org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration -
+					
+
+Using generated security password: ff34f9c3-de1c-4ac8-b55a-28f4eede25d7
+
+2020-10-29 22:43:44.337 [task-1] INFO  org.hibernate.annotations.common.Version -
+					HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-29 22:43:44.450 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain -
+					Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69afa141, org.springframework.security.web.context.SecurityContextPersistenceFilter@120d3fd, org.springframework.security.web.header.HeaderWriterFilter@2e09c51, org.springframework.security.web.authentication.logout.LogoutFilter@6ed922e1, com.co.compras.filter.JWTAuthorizationFilter@49f40c00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4693a9ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fd05028, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@643d2dae, org.springframework.security.web.session.SessionManagementFilter@4b76aa5a, org.springframework.security.web.access.ExceptionTranslationFilter@596a7f44, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ab26378]
+2020-10-29 22:43:44.536 [task-1] INFO  org.hibernate.dialect.Dialect -
+					HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-29 22:43:44.898 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+					Starting ProtocolHandler ["http-nio-8080"]
+2020-10-29 22:43:44.935 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -
+					Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-29 22:43:44.937 [main] INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener -
+					Triggering deferred initialization of Spring Data repositories…
+2020-10-29 22:43:45.588 [task-1] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator -
+					HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-29 22:43:45.595 [task-1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -
+					Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-29 22:43:46.160 [main] INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener -
+					Spring Data repositories initialized!
+2020-10-29 22:43:46.168 [main] INFO  com.co.compras.ComprasApplication -
+					Started ComprasApplication in 5.152 seconds (JVM running for 5.916)
+2020-10-29 22:43:54.377 [http-nio-8080-exec-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -
+					Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-29 22:43:54.377 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet -
+					Initializing Servlet 'dispatcherServlet'
+2020-10-29 22:43:54.387 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet -
+					Completed initialization in 10 ms
+2020-10-29 22:43:55.064 [http-nio-8080-exec-4] DEBUG com.co.compras.serviceImpl.AuthServiceImpl -
+					Logueo exitoso
+2020-10-29 22:44:04.307 [http-nio-8080-exec-1] ERROR com.co.compras.controller.ClienteController -
+					ResponseDTO [httpStatus=500, message=Registro no creado en la BD, code=ERROR_001_CREACION_INCORRECTA, backendMessage=Internal Server Error]
